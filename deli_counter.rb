@@ -5,6 +5,6 @@ def line(katz_deli)
     puts "current line: #{name_in_line} is number #{katz_deli.length} in line."
   end
   if katz_deli.length === 0
-    puts "there is nobody in line"
+    puts "The line is currently empty"
   end
 end
