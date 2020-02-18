@@ -2,7 +2,7 @@ katz_deli = []
 
 def take_a_number(array, string)
   array.push(string)
-  place_in_line = array.index(string) + 1 
+  place_in_line = array.index(string) + 1
   puts "Welcome, #{string}. You are number #{place_in_line} in line."
 end
 
